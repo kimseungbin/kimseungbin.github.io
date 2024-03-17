@@ -10,6 +10,7 @@
             --key: rgb(209, 144, 111);
             --value: rgb(188, 190, 196);
             --line-number: rgb(75, 80, 90);
+            --comment: rgb(92, 130, 108);
         }
 
         html, body {
@@ -59,6 +60,18 @@
             border-right: 1px solid var(--line-number);
         }
 
+        li span {
+            color: var(--key);
+            font-weight: bold;
+            display: inline-block;
+            min-width: 4em;
+        }
+
+        li span::after {
+            content: ':';
+            color: var(--value)
+        }
+
         .arrow-container {
             position: fixed;
             bottom: 0;
@@ -70,6 +83,14 @@
             align-items: center;
             height: 50px;
             margin-bottom: 15px;
+        }
+
+        a {
+            color: var(--comment);
+        }
+
+        a::before {
+            content: '# ';
         }
 
         .arrow {
@@ -113,9 +134,9 @@
 <section>
     <h1>파티 안내</h1>
     <ul>
-        <li>플랜츠인파티룸 신림점 <a href="https://naver.me/GnvUmfJb">네이버 지도</a></li>
-        <li>서울특별시 관악구 신림동 남부순환로 1597-2 2,3층</li>
-        <li>2024년 5월 5일 일요일 오후 19시부터</li>
+        <li><span>장소</span>플랜츠인파티룸 신림점</li>
+        <li><span>주소</span>서울특별시 관악구 신림동 남부순환로 1597-2 2,3층 <a href="https://naver.me/GnvUmfJb">네이버 지도</a></li>
+        <li><span>시간</span>2024년 5월 5일 일요일 오후 19시부터</li>
     </ul>
     <div class="arrow-container">
         <div class="arrow glowing"></div>
