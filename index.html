@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
     <style>
+        :root {
+            --back-ground: rgb(30,31,34);
+            --key: rgb(209, 144, 111);
+            --value: rgb(188, 190, 196);
+        }
         html, body {
             height: 100%;
             margin: 0;
             overflow: hidden;
+            background-color: var(--back-ground);
+            color: var(--value);
         }
         body {
             scroll-snap-type: y mandatory;
             overflow-y: scroll;
-            font-family: 'Nanum Gothic',serif;
+            font-family: 'JetBrains Mono',serif;
         }
         section {
             min-height: 100vh; /* makes minimum height of section one viewport height */
