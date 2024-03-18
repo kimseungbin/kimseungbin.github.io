@@ -43,7 +43,7 @@
             -webkit-appearance: none;
         }
 
-        #time_area {
+        #countdown {
             letter-spacing: -6px;
             font-size: 40pt;
             color: #FF6815;
@@ -221,7 +221,7 @@
             border-color:#7B0101;
         }
 
-        #time_area
+        #countdown
         {
             margin-top:5px;
             letter-spacing:-6px;
@@ -268,7 +268,6 @@
         }
     </style>
 </head>
-<body onload="initOk()" style="background: rgb(255, 255, 255);">
 <span itemscope="" itemtype="http://schema.org/Organization">
 		<link itemprop="url" href="https://time.navyism.com">
 		<a itemprop="sameAs" href="https://twitter.com/timenavyism"></a>
@@ -385,7 +384,7 @@
 
 
         <div style="position:relative">
-            <div id="time_area" onclick="dayNameControl()">2024년 03월 18일<br>23시 40분 43초</div>
+            <div id="countdown"></div>
             <div id="msec_area" style="top: 55px;"></div>
         </div>
         <div id="time_error_area" style="clear:both;"></div>
@@ -416,12 +415,7 @@
             var uharoom	= "time.navyism.com";
         </script>
 
-        <script src="/time.js?20240214-3" charset="utf-8"></script>
-
-
         <script>
-            show(1710772833 - time() + 1);
-
             function orientationSetting()
             {
                 // portrait
@@ -433,7 +427,7 @@
                         var hostInputWidth	= 150;
                         var comInputWidth	= 190;
 
-                        document.getElementById("time_area").style.fontSize  = "34pt";
+                        document.getElementById("countdown").style.fontSize  = "34pt";
 
                         if(!host)
                         {
@@ -478,7 +472,7 @@
                         var hostInputWidth	= 400;
                         var comInputWidth	= 420;
 
-                        document.getElementById("time_area").style.fontSize  = "37pt";
+                        document.getElementById("countdown").style.fontSize  = "37pt";
                     }
                     else
                     {
@@ -767,4 +761,5 @@
     <script>if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "85c90fb7f148"; wcs_do();</script>
 
 </div><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7080544515747498&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1710772833&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A128%2C9%3A32768%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Ftime.navyism.com%2F&amp;pra=5&amp;wgl=1&amp;easpi=0&amp;asro=0&amp;uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.&amp;dt=1710772833435&amp;bpp=1&amp;bdt=50&amp;idt=95&amp;shv=r20240313&amp;mjsv=m202403180101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D870882986e2840bb%3AT%3D1710771417%3ART%3D1710772362%3AS%3DALNI_MaGWAeME2jb49W1GZvJB4dQ_w32Ew&amp;gpic=UID%3D00000d413a14523b%3AT%3D1710771417%3ART%3D1710772362%3AS%3DALNI_MbdseLVk3cf7vkHXnTw2meQroXjOA&amp;eo_id_str=ID%3Deaa1c28160e62a11%3AT%3D1710771417%3ART%3D1710772362%3AS%3DAA-Afjb9GNexqFWVUF2Wb3UMF_N1&amp;nras=1&amp;correlator=508391163318&amp;frm=20&amp;pv=2&amp;ga_vid=1199826643.1710771417&amp;ga_sid=1710772834&amp;ga_hid=900692297&amp;ga_fc=1&amp;u_tz=540&amp;u_his=3&amp;u_h=932&amp;u_w=430&amp;u_ah=932&amp;u_aw=430&amp;u_cd=24&amp;u_sd=3&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=430&amp;bih=932&amp;scr_x=0&amp;scr_y=0&amp;eid=44759875%2C44759926%2C44759837%2C95327950%2C95327955%2C31081947%2C95320376%2C95326920%2C31078663%2C31078665%2C31078668%2C31078670&amp;oid=2&amp;pvsid=2606206938156433&amp;tmod=589319237&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C430%2C0%2C430%2C932%2C430%2C932&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;td=1&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=99" data-google-container-id="a!1" data-load-complete="true"></iframe></div></ins><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__uspapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__gppLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body>
+<script src="countdown.js"></script>
 </html>
