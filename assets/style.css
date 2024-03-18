@@ -1,0 +1,626 @@
+
+body, input, td, div
+{
+    font-family	: "맑은 고딕", arial,굴림;
+    font-size	: 9pt;
+}
+
+.historyElement
+{
+    padding-left:6px;
+    padding-right:6px;
+    word-break:break-all;
+    word-wrap:break-word;
+    border-radius: 3px;
+}
+
+.comElement
+{
+    word-break:break-word;
+}
+
+.blind { display:none; }
+
+dl {
+
+    margin-top:3px;
+    margin-bottom:0px;
+}
+
+dt {
+
+
+    display:inline;
+    margin-left:0px;
+    margin-right:9px;
+
+}
+
+
+dd {
+
+    display:inline;
+    margin-left:0px;
+    margin-right:9px;
+
+}
+
+.flag
+{
+    background:url(//data.navyism.com/flag.png);
+    border-width	: 1px;
+    border-style	: solid;
+    border-color	: #d0d0d0;
+    color			: #ffffff;
+    background-color: #ffffff;
+    height			: 50px;
+    font-weight		: bold;
+    padding			: 5px 1px 4px 1px;
+    width			: 70px;
+    font-size		: 15pt;
+    -webkit-border-radius   : 4px;
+    cursor			: pointer;
+    -webkit-appearance		: none;
+}
+
+.button
+{
+    border-width	: 1px;
+    border-style	: solid;
+    border-color	: #FF754B;
+    color			: #ffffff;
+    background		: #FF754B;
+    height			: 50px;
+    font-weight		: bold;
+    padding			: 5px 1px 4px 1px;
+    width			: 90px;
+    font-size		: 15pt;
+    -webkit-border-radius   : 8px;
+    cursor			: pointer;
+    -webkit-appearance		: none;
+}
+
+.button2
+{
+    border-width	: 1px;
+    border-style	: solid;
+    border-color	: #FF754B;
+    background		: #FF754B;
+    color			: #ffffff;
+    height			: 21px;
+    font-size		: 9pt;
+    -webkit-border-radius   : 2px;
+    cursor			: pointer;
+    -webkit-appearance		: none;
+}
+
+.input
+{
+    border-width	: 6px;
+    border-style	: solid;
+    border-color	: #a0a0a0;
+    background		: #ffffff;
+    color			: #222;
+    height			: 20px;
+    padding			: 3px 1px 3px 5px;
+    height			: 34px;
+    width			: 357px;
+    font-size		: 17pt;
+    font-weight		: bold;
+    font-family		: arial;
+    letter-spacing	: -1px;
+    font-family	: "맑은 고딕", arial,굴림;
+}
+
+.input2
+{
+    border-width	: 1px;
+    border-style	: solid;
+    border-color	: #a0a0a0;
+    background		: #ffffff;
+    color			: #000000;
+    height			: 20px;
+    font-size		: 9pt;
+    font-family		: arial;
+    letter-spacing	: -1px;
+}
+
+h1
+{
+    font-size	: 9pt;
+    display		: inline;
+}
+
+#chartdiv3 {
+    width	: 728px;
+    height	: 160px;
+}
+
+#chartdiv {
+    width	: 728px;
+    height	: 160px;
+}
+
+#freeboard_recently_contents
+{
+    width:728px;
+    padding-top:20px;
+}
+
+
+#freeboard_recently_contents a
+{
+    text-decoration:none;
+    color:#000;
+}
+
+#freeboard_recently_contents ul
+{
+    padding-left:0px;
+}
+
+#freeboard_recently_contents li
+{
+    list-style:none;
+    clear:both;
+    padding-top:5px;
+    overflow-y:hidden;
+}
+
+#freeboard_recently_contents li a
+{
+    color:#666;
+    text-decoration:underline;
+}
+
+#freeboard_recently_contents strong
+{
+    font-size:11pt;
+    font-weight:400;
+    padding-bottom:10px;
+    line-height:180%;
+}
+
+#freeboard_recently_contents div
+{
+    position:relative;
+}
+
+#freeboard_recently_contents div a span
+{
+    font-size:12pt;
+    display:inline-block;
+    text-align:right;
+    width:150px;
+    text-decoration:underline;
+    color:#0000cc;
+    position:absolute;
+    right:0px;
+    top:5px;
+}
+
+
+#help_contents
+{
+    width:728px;
+    padding-top:20px;
+}
+
+#help_contents h3
+{
+    font-weight:500;
+    display:block;
+    float:left;
+    font-size:11pt;
+    margin:0px;
+}
+
+h2
+{
+    font-weight:500;
+    display:block;
+    float:left;
+    font-size:11pt;
+    margin:0px;
+}
+
+h3
+{
+    font-weight:500;
+    font-size:9pt;
+}
+
+#help_contents a
+{
+    text-decoration:none;
+    color:#000;
+}
+
+#help_contents ul
+{
+    padding-left:0px;
+}
+
+#help_contents li
+{
+    list-style:none;
+    clear:both;
+    padding-top:20px;
+    height:90px;
+    overflow-y:hidden;
+}
+
+
+#help_contents span span strong
+{
+    font-size:13pt;
+    font-weight:400;
+    display:block;
+    padding-bottom:8px;
+    letter-spacing:-1px;
+    line-height:150%;
+}
+
+#help_contents span span span
+{
+    font-size:11pt;
+    display:block;
+    letter-spacing:-1px;
+}
+
+#help_contents li img
+{
+    width:200px;
+    margin-right:15px;
+    float:left;
+}
+
+#help_contents li a span span span font
+{
+    color:#0000cc;
+}
+
+#help_contents div a span
+{
+    font-size:12pt;
+    display:inline-block;
+    text-align:right;
+    width:150px;
+    text-decoration:underline;
+    color:#0000cc;
+    position:absolute;
+    right:0px;
+    top:3px;
+}
+
+#help_contents div
+{
+    position:relative;
+}
+
+.more
+{
+    font-size:12pt;
+    display:inline-block;
+    text-align:right;
+    width:150px;
+    text-decoration:underline;
+    color:#0000cc;
+    position:absolute;
+    right:0px;
+}
+
+#dash li
+{
+    list-style:none;
+    margin-top:5px;
+}
+#dash dd
+{
+    padding-top:5px;
+    padding-left:0px;
+    display:block;
+}
+#dash span
+{
+    font-weight:400;
+    float:left;
+    font-size:9pt;
+    margin:0px;
+}
+#dash
+{
+    position:relative;
+}
+#pageInfo
+{
+    font-size:21px;
+    letter-spacing:-1px;
+    padding-top:4px;
+    padding-bottom:7px;
+}
+#siteName
+{
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:-2px;
+    width:720px;
+}
+
+li
+{
+
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.main_title
+{
+    padding-top:10px;
+    font-size:14pt;
+}
+
+.main_title h1
+{
+    font-size:14pt;
+}
+
+#summary
+{
+    letter-spacing:-1px;
+}
+
+#summary ul
+{
+    list-style:disc;
+    padding-left:20px;
+    line-height:1.8em;
+}
+
+
+.main_menu
+{
+    margin-right:4px;
+    font-size:9pt;
+}
+
+#twitContainer
+{
+    padding-bottom:25px;
+}
+
+#twitContainer > div
+{
+    clear:both;
+}
+
+#twitUserProfile
+{
+    float:left;
+    padding-right:12px;
+}
+
+#twitUserProfile img
+{
+    border-radius:50%;
+    width:48px;
+    height:48px
+}
+
+#twitUserInfo
+{
+    padding-top:6px
+}
+
+#twitUserInfoName
+{
+    float:left;
+    padding-right:10px
+}
+
+#twitUserInfoName1
+{
+    font-size:12pt
+}
+
+#twitUserInfoName1 a
+{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
+#twitUserInfoName1 a:hover
+{
+    text-decoration:underline;
+}
+
+#twitUserInfoName2
+{
+    font-size:10pt;
+    color:#657786;
+    padding-top:3px
+}
+
+#twitUserInfoName2 a
+{
+    text-decoration:none;
+    color:#657786
+}
+
+#twitUserInfoName2 a:hover
+{
+    text-decoration:underline;
+}
+
+#twitTime span
+{
+    float:right;
+    font-size:9pt;
+    color:#657786
+}
+
+#twitContents
+{
+    padding-top:12px;
+}
+
+#twitRetweet
+{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: normal;
+    color:#657786"
+}
+
+#twitRetweet a
+{
+    text-decoration:none;
+    color:#657786
+}
+
+#twitRetweet a:hover
+{
+    text-decoration:underline;
+}
+
+#twitText
+{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: normal;
+    letter-spacing:-1px;
+    word-break: break-all;
+}
+
+.twitHash
+{
+    color:#ABB8C2;
+    text-decoration:none;
+}
+
+.twitUrl
+{
+    color:#ABB8C2;
+    text-decoration:none;
+}
+
+.twitMension
+{
+    color:#657786;
+    text-decoration:none;
+}
+
+.twitMedia
+{
+    color:#657786;
+    text-decoration:none;
+}
+
+#twitText a:hover
+{
+    text-decoration:underline;
+}
+
+#twitMedia
+{
+    padding-top:12px
+}
+
+#twitMedia img
+{
+    width:100%;
+}
+
+.twitMore
+{
+    text-align:center;
+    cursor:pointer;
+    background:#f4f4f4;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:40px;
+    border:solid 1px #d0d0d0;
+    border-radius: 8px;
+}
+
+.twitMore2
+{
+    text-align:center;
+    background:#f4f4f4;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:40px;
+    border:solid 1px #d0d0d0;
+    border-radius: 8px;
+}
+
+#hash_tags
+{
+    margin-bottom:18px; font-size:13pt; font-weight:600; line-height: 36px;
+}
+
+#hash_tags span
+{
+    margin-right:5px; background:#e4e4e4; padding:6px; border-radius: 8px;
+}
+
+
+.hostRank
+{
+    letter-spacing:-1px; text-decoration:none
+}
+
+#allArea dd
+{
+    margin:0;
+}
+
+#acArea dd
+{
+    margin:0;
+}
+
+.nodrag {-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
+
+
+table.rounded {
+    --border: 1px solid #ddd;
+    border-radius: 8px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border: var(--border);
+    overflow: hidden;
+}
+
+table.rounded th:not(:last-child),
+table.rounded td:not(:last-child) {
+    border-right: var(--border);
+}
+
+table.rounded>thead>tr:not(:last-child)>th,
+table.rounded>thead>tr:not(:last-child)>td,
+table.rounded>tbody>tr:not(:last-child)>th,
+table.rounded>tbody>tr:not(:last-child)>td,
+table.rounded>tfoot>tr:not(:last-child)>th,
+table.rounded>tfoot>tr:not(:last-child)>td,
+table.rounded>tr:not(:last-child)>td,
+table.rounded>tr:not(:last-child)>th,
+table.rounded>thead:not(:last-child),
+table.rounded>tbody:not(:last-child),
+table.rounded>tfoot:not(:last-child) {
+    border-bottom: var(--border);
+}
+
+table.rounded th {
+    background: #f0f0f0;
+    font-weight:400;
+    font-size:14px;
+    padding:10px;
+}
+
+table.rounded td {
+    font-weight:400;
+    font-size:14px;
+    padding:10px;
+}
